@@ -98,9 +98,10 @@ html{
 /*Home Section Styling*/
 .home{
     display: flex;
-    background: url("images/mobile.jpg") no-repeat center;
+    /* background: url("C:/Users/zeeshan.ishard/OneDrive - Aligned Automation/Desktop/My Personal Portfolio/mobile.jpg") no-repeat center; */
     height: 100vh;
-    color: #fff;
+    color:#fff;
+    background:rgb(10, 8, 38);
     min-height: 500px;
     font-family:'Ubuntu', sans-serif ;
 }
@@ -166,6 +167,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
+    padding-top:28px;
     font-family: 'ubuntu', sans-serif;
 }
 section .title::before{
@@ -194,7 +196,15 @@ section .title::after{
     font-family:'popins', sans-serif ;
 }
 
+.about{
+    color: #fff;
+    background: rgb(10, 8, 38);
+}
+.about .title::before{
+    background:#fff ;
+}
 .about .title::after{
+    background:rgb(10, 8, 38);
     content: "who i am";
 }
 
@@ -242,14 +252,16 @@ section .title::after{
 /*Services section styling start now*/
 .services{
     color: #fff;
-    background: rgb(134, 133, 148);
+    background: rgb(10, 8, 38);
 }
+
 .services .title::before{
     background:#fff ;
 }
 .services .title::after{
-    background:rgb(134, 133, 148);
+    background:rgb(10, 8, 38);
     content: "what i provide";
+    /* padding-bottom: 5%; */
 }
 .services .serv-content .card{
     width: calc(25% - 20px);
@@ -286,7 +298,17 @@ section .title::after{
 
 /*Skills section styling start */
 
+.skills{
+    color: #fff;
+    background: rgb(10, 8, 38);
+    /* margin-bottom: 20px; */
+
+}
+.skills .title::before{
+    background:#fff ;
+}
 .skills .title::after{
+    background: rgb(10, 8, 38);
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -355,11 +377,15 @@ section .title::after{
 
 /* contact section styling */
 .contact{
-    background: rgb(134, 133, 148);
+    color: #fff;
+    background: rgb(10, 8, 38);
+}
+.contact .title::before{
+    background:#fff ;
 }
 .contact .title::after{
+    background: rgb(10, 8, 38);
     content: "get in touch";
-    background: rgb(134, 133, 148);
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -391,7 +417,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #fff;
 }
 .contact .right form .fields{
     display: flex;
@@ -456,7 +482,7 @@ section .title::after{
 /*Footer Styling start*/
 
 footer{
-    background: #111;
+    background: rgb(10, 8, 38);;
     padding: 20px 23px;
 }
 footer span{
@@ -468,7 +494,7 @@ footer span a:hover{
 }
 
 
-    /*Responsive media querry start*/
+/*Responsive media querry start*/
 @media (max-width: 1300px){
     .home .max-width{
         margin-left: 0px;
