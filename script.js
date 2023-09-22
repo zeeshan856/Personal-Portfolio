@@ -27,15 +27,15 @@ $(document).ready(function(){
     });
     //typing Animation Sctipt
     var typed = new Typed(".typing",{
-        strings: ["Developer","UI Designer","Programmer"],
+        strings: ["Data Engineer"],
         typedSpeed:100,
-        backSpeed:60,
+        backSpeed:90,
         loop: true 
     });
     var typed = new Typed(".typing-2",{
-        strings: ["Developer","UI Designer","Programmer"],
+        strings: ["Data Engineer"],
         typedSpeed:100,
-        backSpeed:60,
+        backSpeed:90,
         loop: true 
     });
 
