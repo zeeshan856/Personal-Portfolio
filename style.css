@@ -356,22 +356,22 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 60%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 45%;
 }
 .skills-content .right .js::before{
-    width: 50%;
+    width: 35%;
 }
 .skills-content .right .python::before{
-    width: 30%;
+    width: 45%;
 }
 .skills-content .right .sql::before{
-    width: 60%;
+    width: 90%;
 }
 .skills-content .right .c::before{
-    width: 40%;
+    width: 85%;
 }
 
 
