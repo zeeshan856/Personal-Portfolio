@@ -32,11 +32,4 @@ $(document).ready(function(){
         backSpeed:90,
         loop: true 
     });
-    var typed = new Typed(".typing-2",{
-        strings: ["Data Engineer"],
-        typedSpeed:100,
-        backSpeed:90,
-        loop: true 
-    });
-
 });
